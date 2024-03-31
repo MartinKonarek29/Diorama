@@ -1,0 +1,337 @@
+body {
+
+    width: 100vw;
+    height: 100vh;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.landscape{
+    background-color: rgb(7, 20, 37);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    transition: 0.3s;
+
+}
+.hore{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    top: 28vh;
+    position: absolute;
+}
+
+.sea{
+    background-image: linear-gradient(rgb(0, 0, 80),rgb(8, 0, 121));
+    width: 100vw;
+    height: 40vh;
+    position: absolute;
+    z-index: 100;
+    bottom: 0px;
+    transition: 0.5s;
+}
+
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 129px 300px 157px;
+    border-color: transparent transparent #5a5a5a transparent;
+    transform: rotate(0deg);
+    z-index: 2;
+    transition: 0.5s;
+
+ }
+.triangle2 {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 150px 300px 150px;
+    border-color: transparent transparent #616161 transparent;
+    transform: rotate(0deg);
+    z-index: 5;
+    position: absolute;
+    margin-left: 250px;
+    transition: 0.5s;
+}
+.triangle3 {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 200px 300px 208px;
+    border-color: transparent transparent #4b4b4b transparent;
+    transform: rotate(0deg);
+    z-index: 0;
+    position: absolute;
+    margin-top: 100px;
+    margin-right: 200px;
+    transition: 0.5s;
+ }
+.triangle4 {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 255px 300px 258px;
+    border-color: transparent transparent #4b4b4b ;
+    transform: rotate(0deg);
+    position: absolute;
+    z-index: 0;
+    margin-top: 75px;
+    margin-right:350px ;
+    transition: 0.5s;
+}
+.triangle5 {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 255px 300px 258px;
+    border-color: transparent transparent #4b4b4b ;
+    transform: rotate(0deg);
+    position: absolute;
+    z-index: 0;
+    margin-top: 75px;
+    margin-left:35vw ;
+    transition: 0.5s;
+}
+.triangle6 {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 255px 310px 258px;
+    border-color: transparent transparent #4b4b4b ;
+    transform: rotate(0deg);
+    position: absolute;
+    z-index: 0;
+    margin-top: -10px;
+    margin-left:40vw ;
+    transition: 0.5s;
+}
+.triangle7 {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 250px 500px 250px;
+    border-color: transparent transparent #666666 ;
+    transform: rotate(0deg);
+    z-index: 102;
+    position: absolute;
+    right: 0px;
+    bottom: 250px;
+    transition: 0.5s;
+    
+}
+.dole{
+    width: 100vw;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    bottom: 0px;
+}
+.obd{
+    background-color:#666666 ;
+    z-index: 102;
+    position: absolute;
+    right: 0px;
+    width: 500px;
+    height: 250px;
+    bottom: 0px;
+    transition: 0.5s;
+}
+.triangle8 {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 0px 250px 125px;
+    border-color: transparent transparent #666666 ;
+    transform: rotate(0deg);
+    z-index: 102;
+    position: absolute;
+    right: 500px;
+    bottom: 0px;
+    transition: 0.5s;
+    
+}
+.triangle9 {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 0px 310px 458px;
+    border-color: transparent transparent #5a5a5a ;
+    transform: rotate(0deg);
+    position: absolute;
+    z-index: 102;
+    margin-top: 250px;
+    right: 0px;
+    transition: 0.5s;
+}
+.triangle10 {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 250px 500px 250px;
+    border-color: transparent transparent #636363 ;
+    transform: rotate(0deg);
+    z-index: 102;
+    position: absolute;
+    left: 0px;
+    bottom: 250px;
+    transition: 0.5s;
+    
+}
+.obd2{
+    background-color:#636363 ;
+    z-index: 102;
+    position: absolute;
+    left: 0px;
+    width: 500px;
+    height: 250px;
+    bottom: 0px;
+    transition: 0.5s;
+}
+.triangle11 {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 125px 250px 0px;
+    border-color: transparent transparent #636363 ;
+    transform: rotate(0deg);
+    z-index: 102;
+    position: absolute;
+    left: 500px;
+    bottom: 0px;
+    transition: 0.5s;
+    
+}
+.triangle12 {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 458px 310px 0px;
+    border-color: transparent transparent #5a5a5a ;
+    transform: rotate(0deg);
+    position: absolute;
+    z-index: 102;
+    margin-top: 250px;
+    left: 0px;
+    transition: 0.5s;
+}
+.triangle13 {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 255px 310px 258px;
+    border-color: transparent transparent #575757;
+    transform: rotate(0deg);
+    position: absolute;
+    z-index: 1;
+    margin-top: -10px;
+    margin-right:40vw ;
+    transition: 0.5s;
+}
+#a{
+    width:200px ;
+    position: absolute;
+    z-index: 102;
+    bottom: 220px;
+    right: 155px;
+    fill: #666666;
+    transition: 0.5s;
+    visibility: hidden;
+
+
+}
+
+#b{
+    width:200px ;
+    position: absolute;
+    z-index: 103;
+    bottom: 220px;
+    left: 155px;
+    fill: #636363;
+    transition: 0.5s;
+    visibility: visible;
+
+
+}
+
+.moon{
+    background-color: rgb(230, 230, 230);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    z-index: 0;
+    position: absolute;
+    top: -250px;
+    box-shadow: #ffffff 0 0 50px 15px;
+    transition: 0.5s;
+
+    
+}
+#c{
+    width:125px ;
+    position: absolute;
+    z-index: 102;
+    bottom: 100px;
+    left: 26.8vw;
+    fill: #575757;
+    transition: 0.5s;
+    visibility: hidden;
+
+
+}
+
+#d{
+    width:125px ;
+    position: absolute;
+    z-index: 102;
+    bottom: 100px;
+    right: 26.8vw;
+    fill: #4b4b4b;
+    transition: 0.5s;
+    visibility: hidden;
+
+
+}
+
+#moon{
+    width:175px ;
+    position: absolute;
+    z-index: 102;
+    top: -235px;
+    
+    fill: #ffffff;
+    transition: 0.5s;
+
+
+}
+#moon:hover{
+    fill: #000000;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+body:has(#moon:hover) #d{
+    fill: #000000;
+    visibility: visible;
+}
+body:has(#moon:hover) #c{
+    fill: #000000;
+    visibility: visible;
+}
+body:has(#moon:hover) #b{
+    fill: #000000;
+    visibility: visible;
+}
+body:has(#moon:hover) #a{
+    fill: #000000;
+    visibility: visible;
+}
+body:has(#moon:hover) .moon{
+    box-shadow: #ffffff 0 0 150px 15px;
+    transition: 0.5s;
+}
+

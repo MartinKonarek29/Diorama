@@ -1,0 +1,30 @@
+function myFunction() {
+    document.getElementById("moon").style.fill="#650000";
+    document.getElementById("a").style.fill="#650000";
+    document.getElementById("b").style.fill="#650000";
+    document.getElementById("c").style.fill="#650000";
+    document.getElementById("d").style.fill="#650000";
+    document.getElementById("a").style.visibility="visible";
+    document.getElementById("b").style.visibility="visible";
+    document.getElementById("c").style.visibility="visible";
+    document.getElementById("d").style.visibility="visible";
+    document.getElementById("m").style.boxShadow="red 0 0 150px 15px";
+    document.getElementById("m").style.backgroundColor="red";
+    document.getElementById("triangle1").style.borderColor="transparent transparent #4a1a1a";
+    document.getElementById("triangle2").style.borderColor="transparent transparent #5a2a2a";
+    document.getElementById("triangle3").style.borderColor="transparent transparent #421414";
+    document.getElementById("triangle4").style.borderColor="transparent transparent #421414";
+    document.getElementById("triangle5").style.borderColor="transparent transparent #421414";
+    document.getElementById("triangle6").style.borderColor="transparent transparent #421414";
+    document.getElementById("triangle7").style.borderColor="transparent transparent #6a2a2a";
+    document.getElementById("triangle8").style.borderColor="transparent transparent #6a2a2a";
+    document.getElementById("triangle9").style.borderColor="transparent transparent #4a1a1a";
+    document.getElementById("triangle10").style.borderColor="transparent transparent #6a2a2a";
+    document.getElementById("triangle11").style.borderColor="transparent transparent #6a2a2a";
+    document.getElementById("triangle12").style.borderColor="transparent transparent #4a1a1a";
+    document.getElementById("triangle13").style.borderColor="transparent transparent #4a1a1a";
+    document.getElementById("obd").style.background="#6a2a2a";
+    document.getElementById("obd1").style.background="#6a2a2a";
+    document.getElementById("sea").style.backgroundImage="linear-gradient(rgb(80, 0, 0),rgb(121, 0, 8))";
+    document.getElementById("body").style.background="#371007";
+}
